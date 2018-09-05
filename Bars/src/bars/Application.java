@@ -11,5 +11,7 @@ public class Application {
         Controller controller = new Controller(model,view);
         view.setVisible(true);
         // Fin del main
+        
+        System.out.println("d");
     }
 }
