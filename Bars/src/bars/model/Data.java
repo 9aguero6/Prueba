@@ -5,10 +5,7 @@
  */
 package bars.model;
 
-/**
- *
- * @author Escinf
- */
+//Ejemplos con xxxxxxxx
 public class Data {
     
     String label;

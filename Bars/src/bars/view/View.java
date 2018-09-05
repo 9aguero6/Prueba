@@ -48,19 +48,19 @@ public class View extends javax.swing.JFrame implements Observer {
 
         jLabel1.setText("Columna");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(18, 22, 60, 14);
+        jLabel1.setBounds(18, 22, 60, 20);
         getContentPane().add(columna);
-        columna.setBounds(90, 20, 67, 20);
+        columna.setBounds(90, 20, 67, 26);
 
         jLabel2.setText("Valor");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(180, 20, 40, 14);
+        jLabel2.setBounds(180, 20, 40, 20);
         getContentPane().add(valor);
-        valor.setBounds(220, 20, 43, 20);
+        valor.setBounds(220, 20, 43, 26);
 
         agregar.setText("Agregar");
         getContentPane().add(agregar);
-        agregar.setBounds(280, 20, 90, 23);
+        agregar.setBounds(280, 20, 90, 29);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
