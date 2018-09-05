@@ -19,7 +19,7 @@ import java.awt.event.MouseMotionListener;
 import javax.swing.JButton;
 
 /**
- *
+ * kuasajbsjajbdjabsjd
  * @author Escinf
  */
 public class Controller  extends MouseAdapter implements ActionListener, MouseListener, MouseMotionListener{
