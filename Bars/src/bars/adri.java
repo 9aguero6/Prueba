@@ -10,5 +10,6 @@ package bars;
  * @author Adriana
  */
 public class adri {
-    
+   String nombre;
+   int cedula;
 }
