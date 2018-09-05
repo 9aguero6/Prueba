@@ -73,10 +73,10 @@ public class Controller  extends MouseAdapter implements ActionListener, MouseLi
 
     
     public int find(Point p){
-         Data d;
+         Data data;
          for(int i=0; i<model.getSeries().size();i++){
-             d= model.getSeries().get(i);
-             Rectangle r = new Rectangle(d.getX(),d.getY()-d.getData(),50,d.getData());
+             data= model.getSeries().get(i);
+             Rectangle r = new Rectangle(data.getX(),data.getY()-data.getData(),50,data.getData());
              if (r.contains(p)){
                  return i;
              }
